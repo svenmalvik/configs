@@ -1,5 +1,6 @@
 alias _articlesSS="cd /c/projects/articles"
 alias _articlesMA="cd /Users/sven/articles"
+alias _articlesUnix="cd ~/articles"
 alias _c="clear"
 alias _bashrc="vi ~/.bashrc"
 alias _bashrcreload="source ~/.bashrc"

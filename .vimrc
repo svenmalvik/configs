@@ -44,3 +44,4 @@ Bundle 'chase/vim-ansible-yaml'
 :let g:netrw_browse_split=4
 :set paste
 :set tabstop=2
+:set cursorline

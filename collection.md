@@ -110,7 +110,7 @@ GRANT CREATE USER, CONNECT, RESOURCE, DBA, ALTER SESSION TO vl_dba WITH ADMIN OP
 ```
 ## Docker
 ```bash
-curl -k https://docker.adeo.no:5000/v2/_catalog 
+curl -k https://<HOST_REGISTRY>:5000/v2/_catalog 
 ```
 
 ## Elasticsearch

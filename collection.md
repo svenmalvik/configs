@@ -37,3 +37,13 @@ END;
 exit;
 ```
 
+## Maven
+```
+mvn process-sources -P sysdoc
+
+mvn jgitflow:release-start
+
+mvn versions:set -DnewVersion=<VERSION> -DgenerateBackupPoms=false
+
+mvn -f build/config/ -Dflyway.url=jdbc:oracle:thin:@<HOST>:1521/<SID> -Dflyway.user=<USER> -Dflyway.password=<PWD> -Dflyway.locations=filesystem:<SQL-FOLDER> flyway:info
+```

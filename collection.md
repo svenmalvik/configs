@@ -38,7 +38,7 @@ exit;
 ```
 
 ## Maven
-```
+```sh
 mvn process-sources -P sysdoc
 
 mvn jgitflow:release-start

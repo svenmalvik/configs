@@ -1,4 +1,5 @@
-## Oracle
+## Oracle: delete
+```sql
 SELECT 'DROP TABLE "' || table_name || '" CASCADE CONSTRAINTS;' FROM user_tables;
 SELECT 'DROP SEQUENCE "' || sequence_name || '";' FROM USER_SEQUENCES;
 
@@ -34,3 +35,5 @@ BEGIN
 END;
 /
 exit;
+```
+

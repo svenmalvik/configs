@@ -2,3 +2,4 @@ docker network create --driver overlay net1
 docker network inspect net1
 docker service create --replicas 3 --name web1 --network net1 -p 80:80 nginx
 docker service ps nginx
+docker service update --replicas 2 web1
